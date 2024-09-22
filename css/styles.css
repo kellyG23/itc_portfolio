@@ -201,6 +201,7 @@ a {
 a:hover,
 a:focus {
   opacity: 1;
+  animation: ;
   transition: 0.3s ease-in-out;
 }
 
@@ -278,4 +279,32 @@ p {
   width: 85%;
   height: 2px;
   background-color: var(--color-beige);
+  margin-bottom: 20px;
+}
+
+.one > a {
+  font-size: 2em;
+  display: block;
+  width: 30%;
+  margin: 0 0 10px 0;
+}
+
+.two > p {
+  font-size: 1em;
+  display: block;
+  margin: -5px 0;
+}
+
+.one,
+.two {
+  display: inline-block;
+  width: 50%;
+}
+
+.ok {
+  display: flex;
+}
+
+.margin {
+  padding-bottom: 20px;
 }
