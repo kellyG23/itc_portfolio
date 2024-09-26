@@ -35,6 +35,7 @@ body {
 
 * {
   scroll-behavior: smooth;
+  overflow: hidden;
 }
 
 /* Loading Screen */
